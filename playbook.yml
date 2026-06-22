@@ -1,0 +1,21 @@
+---
+- name: Deploy Automatizado da Infraestrutura Korp
+  hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+    - name: Garantir que o Docker Compose está instalado e ativo
+      ansible.builtin.command: docker compose version
+      register: docker_compose_check
+      changed_when: false
+
+    - name: Mostrar versão do Docker Compose encontrada
+      ansible.builtin.debug:
+        msg: "Docker Compose está pronto: {{ docker_compose_check.stdout }}"
+
+    - name: Subir a infraestrutura usando o Docker Compose
+      community.docker.docker_compose_v2:
+        project_src: /home/rayanne/projeto-korp
+        state: present
+        build: always
