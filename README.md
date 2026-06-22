@@ -1,34 +1,60 @@
-# Desafio Técnico DevOps / Infraestrutura - Korp
+# Olá, eu sou a Rayanne Bastos! 👋
 
-Este repositório contém a solução para o desafio técnico da Korp, englobando a containerização de um microsserviço em Go, configuração de proxy reverso, observabilidade/monitoramento e automação do deploy utilizando Infraestrutura como Código (IaC).
-
----
-
-## 🏗️ Arquitetura do Projeto
-
-A infraestrutura foi desenhada para ser totalmente resiliente, isolada e automatizada, dividida em três pilares principais:
-
-1. **Aplicações & Proxy (Porta 80):** - Um servidor HTTP em **Go** utilizando Dockerfile otimizado via *Multi-stage Build*.
-   - Um servidor **NGINX** atuando como Proxy Reverso, recebendo as requisições externas na porta `80` e direcionando de forma segura para o container Go através de uma rede isolada (`korp-network`).
-
-2. **Monitoramento & Observabilidade:**
-   - **Prometheus (Porta 9090):** Configurado para realizar o *scrape* (coleta) periódico das métricas expostas pela aplicação Go na rota `/metrics`.
-   - **Grafana (Porta 3000):** Integrado ao Prometheus como Fonte de Dados (*Data Source*) para a criação de dashboards e visualização analítica do comportamento do servidor.
-
-3. **Automação (IaC):**
-   - Um Playbook do **Ansible** encarregado de validar o ambiente local e orquestrar a execução do ecossistema de containers sem necessidade de intervenção manual passo a passo.
+Iniciando minha jornada no universo do desenvolvimento de sistemas e da engenharia de software. Busco conectar tecnologia de ponta, automação de infraestrutura e análise de dados para construir soluções eficientes com impacto real na sociedade.
 
 ---
 
-## 📁 Estrutura de Arquivos
+## 🎓 Sobre Mim
 
-```text
-projeto-korp/
-├── main.go               # Código fonte do servidor HTTP em Go
-├── go.mod                # Módulo de dependências do Go
-├── go.sum                # Checksums das dependências do Go
-├── Dockerfile            # Build otimizado em estágios (Multi-stage)
-├── docker-compose.yml    # Orquestração dos serviços da infraestrutura
-├── nginx.conf            # Configuração do Proxy Reverso NGINX
-├── prometheus.yml        # Configuração de coleta do Prometheus
-└── playbook.yml          # Automação do Deploy com Ansible
+- 💻 Cursando **Desenvolvimento de Sistemas** (IFSULDEMINAS) e apaixonada por Engenharia de Software.
+- 🏛️ Graduanda em **Ciências Sociais** (UENF), o que me traz uma visão analítica e estruturada sobre dados e o impacto da tecnologia no mundo.
+- 🚀 Atualmente focada em aprender mais sobre **DevOps, Automação de Infraestrutura e Observabilidade**.
+
+---
+
+## 🛠️ Tecnologias & Ferramentas
+
+### 💻 Desenvolvimento & Backend
+- **Linguagens:** Go, Python, JavaScript
+- **Banco de Dados:** PostgreSQL, MySQL
+
+### 🐳 DevOps & Infraestrutura como Código (IaC)
+- **Containers & Orquestração:** Docker, Docker Compose
+- **Automação:** Ansible Playbooks
+- **Servidores & Proxies:** NGINX
+
+### 📊 Observabilidade & Monitoramento
+- **Métricas:** Prometheus
+- **Dashboards:** Grafana
+
+---
+
+## 📈 Estatísticas do GitHub
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=raynix-exe&show_icons=true&theme=radial&include_all_commits=true" alt="Estatísticas do GitHub de Rayanne" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raynix-exe&layout=compact&theme=radial" alt="Linguagens mais utilizadas" />
+</div>
+
+---
+
+## 🚀 Projeto em Destaque: Infraestrutura Korp
+
+Este repositório contém a solução completa para o desafio de infraestrutura, monitoramento e automação.
+
+### 🏗️ Arquitetura do Projeto
+- **Aplicações & Proxy (Porta 80):** Um servidor HTTP em Go utilizando Dockerfile otimizado e um servidor NGINX atuando como Proxy Reverso através de uma rede isolada (`korp-network`).
+- **Monitoramento e Observabilidade:** Prometheus (Porta 9090) coletando as métricas e Grafana (Porta 3000) integrado para a visualização analítica.
+- **Automação (IaC):** Um Playbook do Ansible encarregado de validar o ambiente e orquestrar a execução dos contêineres.
+
+### 📁 Estrutura de Arquivos
+- `main.go`, `Dockerfile`, `docker-compose.yml`, `nginx.conf`, `prometheus.yml`, `playbook.yml`.
+
+---
+
+## 🤝 Conecte-se Comigo
+
+- **E-mail:** bastosrayanne162@gmail.com
+- **LinkedIn:** [www.linkedin.com/in/rayanne-diasz-04103525b)
+
+*"Automatizando o presente para analisar o futuro."* 🚀
