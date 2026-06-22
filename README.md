@@ -7,7 +7,6 @@ Iniciando minha jornada no universo do desenvolvimento de sistemas e da engenhar
 ## 🎓 Sobre Mim
 
 - 💻 Cursando **Desenvolvimento de Sistemas** (IFSULDEMINAS) e apaixonada por Engenharia de Software.
-- 🏛️ Graduanda em **Ciências Sociais** (UENF), o que me traz uma visão analítica e estruturada sobre dados e o impacto da tecnologia no mundo.
 - 🚀 Atualmente focada em aprender mais sobre **DevOps, Automação de Infraestrutura e Observabilidade**.
 
 ---
@@ -55,6 +54,8 @@ Este repositório contém a solução completa para o desafio de infraestrutura,
 ## 🤝 Conecte-se Comigo
 
 - **E-mail:** bastosrayanne162@gmail.com
-- **LinkedIn:** [www.linkedin.com/in/rayanne-diasz-04103525b)
+  - **LinkedIn:** [www.linkedin.com/in/rayanne-diasz-04103525b]
+  - 
+- tps://www.linkedin.com/in/rayanne-diasz-04103525b)
 
 *"Automatizando o presente para analisar o futuro."* 🚀
