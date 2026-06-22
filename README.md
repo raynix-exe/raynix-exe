@@ -26,14 +26,16 @@ Iniciando minha jornada no universo do desenvolvimento de sistemas e da engenhar
 - **Métricas:** Prometheus
 - **Dashboards:** Grafana
 
----
+--
 
 ## 📈 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raynix-exe&show_icons=true&theme=radial&include_all_commits=true" alt="Estatísticas do GitHub de Rayanne" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raynix-exe&layout=compact&theme=radial" alt="Linguagens mais utilizadas" />
+  <img src="https://github-readme-stats-six-alpha.vercel.app/api?username=raynix-exe&show_icons=true&theme=radial&include_all_commits=true" alt="Estatísticas do GitHub de Rayanne" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=raynix-exe&theme=radial" alt="Streak do GitHub" />
 </div>
+
+---
 
 ---
 
