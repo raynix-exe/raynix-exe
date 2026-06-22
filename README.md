@@ -55,7 +55,6 @@ Este repositório contém a solução completa para o desafio de infraestrutura,
 
 - **E-mail:** bastosrayanne162@gmail.com
   - **LinkedIn:** [www.linkedin.com/in/rayanne-diasz-04103525b]
-  - 
-- tps://www.linkedin.com/in/rayanne-diasz-04103525b)
+
 
 *"Automatizando o presente para analisar o futuro."* 🚀
