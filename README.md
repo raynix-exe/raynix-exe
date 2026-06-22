@@ -59,6 +59,6 @@ Este repositório contém a solução completa para o desafio de infraestrutura,
 ## 🤝 Conecte-se Comigo
 
 - **E-mail:** bastosrayanne162@gmail.com
-- **LinkedIn:** [Acesse meu LinkedIn](https://www.linkedin.com/in/rayanne-diasz-04103525b)
+- **LinkedIn:** (https://www.linkedin.com/in/rayanne-diasz-04103525b)
 
 *"Automatizando o presente para analisar o futuro."* 🚀
